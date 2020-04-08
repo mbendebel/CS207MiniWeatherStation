@@ -15,10 +15,12 @@ Repository Contents
 Requirements and Materials
 ============
 Bill of Materials:
-* 8 x push buttons
-* 8 x 10k ohm resistor
-* 1 x breadboard
 * 1 x Arduino Uno R3
+* 1 x breadboard
+* 1 x BME-280 Pressure Sensor
+* 1 x 1.8" ST7735 LCD Display
+* 1 x Enclosure
+* 1 x Rain Sensor
 
 
 Build Instructions
@@ -41,7 +43,6 @@ This is a circuit schematic of the build.
 ![alt text][pic3]
 
 [pic3]: https://github.com/matthewbendebel/8-Button-Game-Controller-/blob/master/img/Circuit%20Schematic.png
-
 
 
 
