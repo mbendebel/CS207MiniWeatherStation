@@ -1,8 +1,9 @@
-# Repository Title [v1]
+# Arduino-Based Mini Weather Station [v1]
 
-This repository will display how to make an 8-button game controller on the Arduino for Assignment #4 in CS207: Building Interactive Gadgets (Winter 2020).
+This repository is intended for the CS207 - Winter 2020 Final Project.
+This repository will display how to make your own Arduino-Based Mini Weather Station. The mini weather station will read data from two main sensors (a raindrops sensor and a BME280 sensor) and output the data neatly to an LCD screen.
 
-The game controller's input, built based on the Arduino, will controlled by pushbutton switches. Once the buttons are pressed, it will send commands to the computer via serial.
+Enjoy!
 
 
 Repository Contents
@@ -17,10 +18,10 @@ Requirements and Materials
 Bill of Materials:
 * 1 x Arduino Uno R3
 * 1 x breadboard
-* 1 x BME-280 Pressure Sensor
+* 1 x BME-280 Pressure Sensor (Reads air temperature, humidity, atmospheric pressure, and altitude)
 * 1 x 1.8" ST7735 LCD Display
 * 1 x Enclosure
-* 1 x Rain Sensor
+* 1 x Rain Sensor Kit
 
 
 Build Instructions
@@ -30,19 +31,19 @@ This is a generic breadboard diagram of the game controller with the buttons non
 
 ![alt text][pic1]
 
-[pic1]: https://github.com/matthewbendebel/8-Button-Game-Controller-/blob/master/img/Breadboard.png
+[pic1]: https://github.com/mbendebel/CS207MiniWeatherStation/blob/master/img/Breadboard_bb.png
 
-This is breadboard diagram based on a NES controller.
+This is breadboard diagram of the build
 
 ![alt text][pic2]
 
-[pic2]: https://github.com/matthewbendebel/8-Button-Game-Controller-/blob/master/img/Game%20Controller%20Breadboard.png
+[pic2]: https://github.com/mbendebel/CS207MiniWeatherStation/blob/master/img/Circuit_schem.png
 
 This is a circuit schematic of the build.
 
 ![alt text][pic3]
 
-[pic3]: https://github.com/matthewbendebel/8-Button-Game-Controller-/blob/master/img/Circuit%20Schematic.png
+[pic3]: https://github.com/mbendebel/CS207MiniWeatherStation/blob/master/img/Final%20Build.jpeg
 
 
 
