@@ -27,19 +27,19 @@ Bill of Materials:
 Build Instructions
 ==================
 
-This is a generic breadboard diagram of the game controller with the buttons non-traditionally placed inline with one another unlike a real game controller.
+This is breadboard diagram of the build.
 
 ![alt text][pic1]
 
 [pic1]: https://github.com/mbendebel/CS207MiniWeatherStation/blob/master/img/Breadboard_bb.png
 
-This is breadboard diagram of the build
+This is a circuit schematic of the build.
 
 ![alt text][pic2]
 
 [pic2]: https://github.com/mbendebel/CS207MiniWeatherStation/blob/master/img/Circuit_schem.png
 
-This is a circuit schematic of the build.
+This is the final product of the build.
 
 ![alt text][pic3]
 
