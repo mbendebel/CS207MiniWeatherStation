@@ -35,6 +35,7 @@ components from the breadboard to the Arduino Uno R3 by using jumper wires. In t
 were 22 connections being powered by the Arduino and because of the numerous amounts of
 connections, it made quite a mess on the breadboard especially if without any proper cable
 management.
+
 For the rain sensor of this project there are two components, the raindrops sensor itself
 and the raindrops module board. The raindrops module board has 4 pins, AO (analog output) pin,
 DO (digital output) pin, GND (ground) pin, and VCC+ (5v power) pin. We will only use 3 pins,
@@ -44,6 +45,7 @@ sensor’s board surface is coated with numerous lines of nickel. This sensor wo
 principle of resistance. The sensor has more resistance when it is dry, and less resistance when it
 is wet. The Arduino can know if it is raining or not based on the amount of resistance being
 detected by the raindrops module board. [1]
+
 For the other weather sensor, we use the BME280 sensor. The BME280 can read air
 temperature, air pressure, and air humidity. The BME280 has 4 pins which are the SDA (Serial
 Data) pin, SCL (Serial Clock) pin, GND (ground) pin, and VIN/VCC+ (5v power) pin. The
@@ -51,13 +53,16 @@ sensor has to be soldered onto the seller’s provided pin male header otherwise
 decent soldered connection made and therefore the Arduino cannot read from the sensor. Added,
 the sensor should not be touching the breadboard otherwise the readings from the sensor will not
 be accurate.
+
 We added a reset push-button to our weather station. Its purpose is so that we do not have
 to rely on the Arduino Uno’s built-in reset button on the board. This makes it convenient for
 resetting the weather station when there is an error or if we want an update on the imminent
 weather forecast.
+
 As for the sketch code, we had to add many libraries and were required to use different
 library functions so that we could communicate with both the board and the sensor. Added, we
 also had to tweak the forecast algorithm we used, the Zambretti Forecaster, to fit with our code.
+
 As a result, we had to write numerous amounts of code, especially when writing code to print to
 the LCD screen. Furthermore, the use of numerous libraries made our code use up a lot of
 memory.
